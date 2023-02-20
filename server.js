@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://inventron-app-frontend.vercel.app"],
+    origin: ["http://localhost:3000", "https://inventron-app.vercel.app"],
     credentials: true,
   })
 );
